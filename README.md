@@ -42,9 +42,15 @@ Default startup task: `track`
 |---|---|
 | ![](figs/Colorization.png) | ![](figs/StyleTransfer.png) |
 
-| DeOldify |
-|---|
-| ![](figs/Deoldify.png) |
+### Tracking
+
+<video
+  src="https://github.com/user-attachments/assets/d2f79049-64ec-4f50-8675-e721d3980909"
+  controls
+  muted
+  playsinline
+  style="max-width:100%;">
+</video>
 
 ## Features
 
@@ -111,3 +117,7 @@ E:/conda/envs_dirs/baseline/python.exe h:/QtProjects/python_onnx_desktop/main.py
 - `desnow` currently reuses the available Restormer weight and is effectively a placeholder mode.
 - Running `app/inference.py` directly is supported for import/debug purposes, but the normal entry point is `main.py`.
 - This repository currently contains the desktop Python app only; the old C++ and web README content no longer applies here.
+
+## License
+
+[Apache License 2.0](LICENSE)
