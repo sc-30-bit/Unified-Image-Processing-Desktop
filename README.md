@@ -1,4 +1,4 @@
-# Python ONNX Desktop
+# Unified Image Processing Desktop
 
 Local PyQt5 desktop app for ONNX-based image, video, and camera inference.
 
