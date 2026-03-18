@@ -1,0 +1,1 @@
+"""Python desktop ONNX application."""
