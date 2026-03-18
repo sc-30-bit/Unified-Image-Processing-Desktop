@@ -21,27 +21,12 @@ The current UI is implemented with PyQt5, and the inference backend is in `app/i
 
 ## Supported Tasks
 
-Image / video tasks:
+| Mode | Tasks |
+|---|---|
+| Image / Video | `superres`, `dehaze`, `derain`, `desnow`, `underwater`, `old_photo`, `colorization`, `style`, `detect`, `segment`, `track` |
+| Camera | `detect`, `segment`, `track` |
 
-- `superres`
-- `dehaze`
-- `derain`
-- `desnow`
-- `underwater`
-- `old_photo`
-- `colorization`
-- `style`
-- `detect`
-- `segment`
-- `track`
-
-Camera mode supports YOLO tasks only:
-
-- `detect`
-- `segment`
-- `track`
-
-Default startup task is `track`.
+Default startup task: `track`
 
 ## Demo Images
 
@@ -75,6 +60,14 @@ Default startup task is `track`.
 
 - Python 3.9+
 - ONNX model files under `weights/`
+
+## Weights
+
+Download the weights pack:
+
+- [Google Drive weights pack](https://drive.google.com/file/d/1OyZCqlJv7gblpH75rBOwpRvhTayYorFl/view?usp=sharing)
+
+After downloading, extract or place the required `.onnx` files into the local `weights/` folder under the repository root.
 
 Install dependencies:
 
